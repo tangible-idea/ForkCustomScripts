@@ -19,3 +19,5 @@ This script extracts the files modified in a specific Git branch (compared to th
 2. Make it executable:
    ```bash
    chmod +x extract_modified_files.sh
+3. Add a `Custom Command` in Fork Settings.
+4. <img width="952" alt="스크린샷 2024-11-28 오후 5 36 13" src="https://github.com/user-attachments/assets/00ef9831-fd34-4ece-86fa-6ef66f576647">
