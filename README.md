@@ -1,4 +1,4 @@
-# ForkCustomScripts
+# GitCustomScripts
 ### Extract Modified Files Script
 
 This script extracts the files modified in a specific Git branch (compared to the current branch), shows their directory structure, and compresses them into a ZIP file.
