@@ -55,7 +55,7 @@ else
 fi
 
 # zip 파일 생성 (파일명에 '변경사항_' 접두어 사용)
-ZIP_FILE="변경사항_$(echo "$BRANCH_NAME" | tr '/' '_').zip"
+ZIP_FILE="변경사항_$(echo "$CURRENT_BRANCH" | tr '/' '_').zip"
 echo "압축 파일 '$ZIP_FILE' 생성 중..."
 zip -r "$ZIP_FILE" "$TEMP_DIR" >/dev/null
 
